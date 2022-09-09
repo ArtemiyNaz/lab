@@ -27,7 +27,7 @@ def sort(list):
 
 start = monotonic()
 list = []
-for x in range(0, 9):
+for x in range(0, 10):
   list.append(random.randint(0, 9))
 sort(list)
 finish = monotonic()
